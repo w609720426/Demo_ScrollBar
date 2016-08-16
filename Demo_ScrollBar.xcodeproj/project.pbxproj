@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50B8B9A21D61A7DD003A9CDC /* LQHeaderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B8B9A11D61A7DD003A9CDC /* LQHeaderScrollView.m */; };
+		50B8B9A61D61C0AF003A9CDC /* LQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B8B9A51D61C0AF003A9CDC /* LQBaseViewController.m */; };
 		50FD7C091D5D7977002DDB74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FD7C081D5D7977002DDB74 /* main.m */; };
 		50FD7C0C1D5D7977002DDB74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FD7C0B1D5D7977002DDB74 /* AppDelegate.m */; };
 		50FD7C0F1D5D7977002DDB74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FD7C0E1D5D7977002DDB74 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50B8B9A01D61A7DD003A9CDC /* LQHeaderScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQHeaderScrollView.h; sourceTree = "<group>"; };
+		50B8B9A11D61A7DD003A9CDC /* LQHeaderScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQHeaderScrollView.m; sourceTree = "<group>"; };
+		50B8B9A41D61C0AF003A9CDC /* LQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQBaseViewController.h; sourceTree = "<group>"; };
+		50B8B9A51D61C0AF003A9CDC /* LQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQBaseViewController.m; sourceTree = "<group>"; };
 		50FD7C041D5D7977002DDB74 /* Demo_ScrollBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_ScrollBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FD7C081D5D7977002DDB74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50FD7C0A1D5D7977002DDB74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +84,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50B8B99F1D61A788003A9CDC /* LQHeaderScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				50B8B9A01D61A7DD003A9CDC /* LQHeaderScrollView.h */,
+				50B8B9A11D61A7DD003A9CDC /* LQHeaderScrollView.m */,
+			);
+			path = LQHeaderScrollView;
+			sourceTree = "<group>";
+		};
+		50B8B9A31D61BF89003A9CDC /* LQBaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				50B8B9A41D61C0AF003A9CDC /* LQBaseViewController.h */,
+				50B8B9A51D61C0AF003A9CDC /* LQBaseViewController.m */,
+			);
+			path = LQBaseVC;
+			sourceTree = "<group>";
+		};
 		50FD7BFB1D5D7977002DDB74 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +125,8 @@
 		50FD7C061D5D7977002DDB74 /* Demo_ScrollBar */ = {
 			isa = PBXGroup;
 			children = (
+				50B8B9A31D61BF89003A9CDC /* LQBaseVC */,
+				50B8B99F1D61A788003A9CDC /* LQHeaderScrollView */,
 				50FD7C0A1D5D7977002DDB74 /* AppDelegate.h */,
 				50FD7C0B1D5D7977002DDB74 /* AppDelegate.m */,
 				50FD7C0D1D5D7977002DDB74 /* ViewController.h */,
@@ -273,6 +299,8 @@
 				50FD7C0F1D5D7977002DDB74 /* ViewController.m in Sources */,
 				50FD7C0C1D5D7977002DDB74 /* AppDelegate.m in Sources */,
 				50FD7C091D5D7977002DDB74 /* main.m in Sources */,
+				50B8B9A21D61A7DD003A9CDC /* LQHeaderScrollView.m in Sources */,
+				50B8B9A61D61C0AF003A9CDC /* LQBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +524,7 @@
 				50FD7C331D5D7977002DDB74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50FD7C341D5D7977002DDB74 /* Build configuration list for PBXNativeTarget "Demo_ScrollBarTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +533,7 @@
 				50FD7C361D5D7977002DDB74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50FD7C371D5D7977002DDB74 /* Build configuration list for PBXNativeTarget "Demo_ScrollBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +542,7 @@
 				50FD7C391D5D7977002DDB74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
